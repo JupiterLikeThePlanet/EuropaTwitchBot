@@ -1,4 +1,14 @@
-oauth:843kme70s8enap67lto2jktnlpbqoa
+
+**Yarn Commands 
+
+> yarn install
+
+> yarn add {package name here}
+
+> yarn start
+
+
+#Resources
 
 *Setup Coding on Windows
 https://www.youtube.com/watch?v=kL8iGErULiw
@@ -7,12 +17,16 @@ https://www.youtube.com/watch?v=kL8iGErULiw
 https://www.youtube.com/watch?v=ijl3GUHvKIw
 
 *How to Build a Twitch Bot Using TMI.JS (a moderator bot).
+https://www.youtube.com/watch?v=7uSjKbAUHXg&t=1097s
 
-https://www.youtube.com/watch?v=7uSjKbAUHXg
 
+https://dev.twitch.tv/docs
+
+Getting oAuth Tokens
+https://dev.twitch.tv/docs/authentication/getting-tokens-oauth
 
 *Twitch Chat OAuth Password Generator
-https://twitchapps.com/tmi/#access_token=843kme70s8enap67lto2jktnlpbqoa&scope=chat%3Aread+chat%3Aedit+channel%3Amoderate+whispers%3Aread+whispers%3Aedit+channel_editor&token_type=bearer
+https://twitchapps.com/tmi/
 
 Twitch Dev Docs
 
