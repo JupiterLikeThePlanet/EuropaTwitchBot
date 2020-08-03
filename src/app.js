@@ -18,6 +18,8 @@ const options = {
     channels: [CHANNEL_NAME]
 };
 
+//CHANNEL_NAME.replace(/[^\w\s]/gi, '')
+
 
 const client = tmi.client(options);
 

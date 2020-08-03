@@ -1,6 +1,6 @@
 // import {config} from 'dotenv'
 //'jupiterliketheplanet', 'sortoftvnetwork', 'packtheater']
-export const CHANNEL_NAME = ['#jupiterliketheplanet', "#wizworldlive"];
+export const CHANNEL_NAME = '#jupiterliketheplanet';
 // export const CHANNEL_NAME = process.env.CHANNEL
 export const OATH_TOKEN = '';
 export const BOT_USERNAME = 'europachatbot';
