@@ -18,7 +18,7 @@ const options = {
     channels: [CHANNEL_NAME]
 };
 
-//CHANNEL_NAME.replace(/[^\w\s]/gi, '')
+const dehashedChannelName = CHANNEL_NAME.replace(/[^\w\s]/gi, '')
 
 
 const client = tmi.client(options);
@@ -75,6 +75,7 @@ client.on('message', (channel, userstate, message, self) =>{
     if(self) return;
 
     if(userstate.username === BOT_USERNAME) return;
+    if(userstate.username === dehashedChannelName) return;
 
     if(message.toLocaleLowerCase() === '!hello'){
         client.say(channel, `@${userstate.username}, wassup nerd`);
